@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  gitdemo1:
+    image: gitdemo1
+    build:
+      context: .
+      dockerfile: GitDemo1/Dockerfile
